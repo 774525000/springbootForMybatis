@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/ssm?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=GMT
+    username: root
+    password: 123456
+
+mybatis:
+  type-aliases-package: com.shuaige.bean
